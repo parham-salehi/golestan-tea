@@ -1,0 +1,15 @@
+.main .intro {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+.main .intro div {
+  width: 50%;
+}
+.main .intro div h2 {
+  color: red;
+}
+.main .intro div span {
+  color: red;
+}

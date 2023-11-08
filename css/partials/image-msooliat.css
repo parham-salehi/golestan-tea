@@ -1,0 +1,38 @@
+.main .image-masooliat {
+    width: 100%;
+    height: 600px;
+    background-color: #215153;
+    text-align: center;
+    padding-top: 200px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .main .image-masooliat div {
+    border-bottom: 1px solid #65d9df;
+  }
+  .main .image-masooliat img {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -80%);
+  }
+  .main .image-masooliat h3 {
+    color: #65d9df;
+    line-height: 50px;
+  }
+  .main .image-masooliat h3::before {
+    content: "Golestan ";
+    color: #65d9df;
+    font-size: 30px;
+  }
+  .main .image-masooliat p {
+    line-height: 60px;
+    color: whitesmoke;
+  }
+  .main .image-masooliat p::after {
+    content: "";
+    border-bottom: 1px solid #65d9df;
+    margin-top: 20px;
+    width: 90%;
+  }
+  

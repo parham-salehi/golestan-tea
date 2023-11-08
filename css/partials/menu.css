@@ -1,0 +1,92 @@
+.main .menu {
+  width: 100%;
+  height: 100px;
+  background-color: #2b2b2b;
+  padding-top: 12px;
+  box-sizing: border-box;
+  vertical-align: top;
+  padding-right: 100px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 2;
+}
+
+.main .menu nav {
+  width: 80%;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.main .menu nav img {
+  position: absolute;
+  top: 40px;
+  left: calc(80vw - 150px);
+}
+.main .menu nav div {
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-left: #444242 1px solid;
+  height: 40px;
+  position: relative;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.main .menu nav div a {
+  vertical-align: middle;
+  display: block;
+  height: inherit;
+  line-height: 50px;
+}
+/* .main .menu nav div::after {
+  content: "";
+  border-left: #444242 1px solid;
+  height: 40px;
+  display: block;
+  margin-top: 0;
+} */
+
+.main .menu nav div .submenu {
+  position: absolute;
+  top: 38px;
+  right: 0;
+  width: 180px;
+  background-color: #2b2b2b;
+  height: auto;
+  padding: 0;
+  box-sizing: border-box;
+  display: none;
+}
+.main .menu nav div .submenu div {
+  padding-right: 20px;
+  width: inherit;
+  border: none;
+  box-sizing: border-box;
+  height: 40px;
+}
+.main .menu nav div .submenu div a {
+  width: inherit;
+  color: rgb(178, 174, 174);
+}
+.main .menu nav div a {
+  display: block;
+  text-decoration: none;
+  color: rgb(178, 174, 174);
+  line-height: 30px;
+}
+
+/* hover ....................... */
+.main .menu nav div:hover .submenu {
+  display: block;
+}
+.main .menu nav div:hover a {
+  color: white;
+}
+.main .menu nav div .submenu div a:hover {
+  color: white;
+}
